@@ -1,0 +1,69 @@
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+}
+
+.todoList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  width: 400px;
+  padding: 50px;
+}
+
+.todoList__list {
+  margin-bottom: 50px;
+  width: 100%;
+  padding: 0;
+}
+
+.todoList__item {
+  cursor: pointer;
+  border: 1px solid lightblue;
+  margin-bottom: 5px;
+  width: 100%;
+  transition: .3s;
+}
+
+.todoList__text {
+  margin: 0;
+  padding: 10px;
+}
+
+.todoList__item--done {
+  text-decoration: line-through;
+  background: lightblue;
+  color: gray;
+}
+
+.todoList__addTodo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.addTodo__input {
+  border: 1px solid lightgrey;
+  padding: 10px;
+  width: 80%;
+}
+
+.addTodo__btn {
+  border: 1px solid lightgrey;
+  background: none;
+  padding: 10px;
+  width: 20%;
+}
